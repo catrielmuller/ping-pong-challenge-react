@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ping-pong-challenge-react/static/css/main.6fa756ed.chunk.css",
-    "main.js": "/ping-pong-challenge-react/static/js/main.1c36f828.chunk.js",
-    "main.js.map": "/ping-pong-challenge-react/static/js/main.1c36f828.chunk.js.map",
+    "main.js": "/ping-pong-challenge-react/static/js/main.b0b42ae8.chunk.js",
+    "main.js.map": "/ping-pong-challenge-react/static/js/main.b0b42ae8.chunk.js.map",
     "runtime-main.js": "/ping-pong-challenge-react/static/js/runtime-main.1150cba4.js",
     "runtime-main.js.map": "/ping-pong-challenge-react/static/js/runtime-main.1150cba4.js.map",
-    "static/js/2.1d440e44.chunk.js": "/ping-pong-challenge-react/static/js/2.1d440e44.chunk.js",
-    "static/js/2.1d440e44.chunk.js.map": "/ping-pong-challenge-react/static/js/2.1d440e44.chunk.js.map",
+    "static/js/2.2e48b01f.chunk.js": "/ping-pong-challenge-react/static/js/2.2e48b01f.chunk.js",
+    "static/js/2.2e48b01f.chunk.js.map": "/ping-pong-challenge-react/static/js/2.2e48b01f.chunk.js.map",
     "index.html": "/ping-pong-challenge-react/index.html",
-    "precache-manifest.b4951466e1cd870aaccd26f2da0ff797.js": "/ping-pong-challenge-react/precache-manifest.b4951466e1cd870aaccd26f2da0ff797.js",
+    "precache-manifest.a00a651244194ef088d768eace603dbc.js": "/ping-pong-challenge-react/precache-manifest.a00a651244194ef088d768eace603dbc.js",
     "service-worker.js": "/ping-pong-challenge-react/service-worker.js",
     "static/css/main.6fa756ed.chunk.css.map": "/ping-pong-challenge-react/static/css/main.6fa756ed.chunk.css.map",
-    "static/js/2.1d440e44.chunk.js.LICENSE.txt": "/ping-pong-challenge-react/static/js/2.1d440e44.chunk.js.LICENSE.txt",
+    "static/js/2.2e48b01f.chunk.js.LICENSE.txt": "/ping-pong-challenge-react/static/js/2.2e48b01f.chunk.js.LICENSE.txt",
     "static/media/ball-incoming.mp3": "/ping-pong-challenge-react/static/media/ball-incoming.09c537af.mp3",
     "static/media/ball-outgoing.mp3": "/ping-pong-challenge-react/static/media/ball-outgoing.177649ca.mp3",
     "static/media/game-over.mp3": "/ping-pong-challenge-react/static/media/game-over.f945164c.mp3",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1150cba4.js",
-    "static/js/2.1d440e44.chunk.js",
+    "static/js/2.2e48b01f.chunk.js",
     "static/css/main.6fa756ed.chunk.css",
-    "static/js/main.1c36f828.chunk.js"
+    "static/js/main.b0b42ae8.chunk.js"
   ]
 }

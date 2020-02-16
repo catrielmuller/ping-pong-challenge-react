@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea210447633d949926066dad6aca9345",
+    "revision": "cb1fa6a4b2f0273e4b60a3bd9bea8252",
     "url": "/ping-pong-challenge-react/index.html"
   },
   {
-    "revision": "50c3586209079f5f8e49",
+    "revision": "a93110ebb101f358aef2",
     "url": "/ping-pong-challenge-react/static/css/main.6fa756ed.chunk.css"
   },
   {
-    "revision": "35173e8aa457141b0fd0",
-    "url": "/ping-pong-challenge-react/static/js/2.1d440e44.chunk.js"
+    "revision": "e4079537cff98806ae02",
+    "url": "/ping-pong-challenge-react/static/js/2.2e48b01f.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/ping-pong-challenge-react/static/js/2.1d440e44.chunk.js.LICENSE.txt"
+    "url": "/ping-pong-challenge-react/static/js/2.2e48b01f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50c3586209079f5f8e49",
-    "url": "/ping-pong-challenge-react/static/js/main.1c36f828.chunk.js"
+    "revision": "a93110ebb101f358aef2",
+    "url": "/ping-pong-challenge-react/static/js/main.b0b42ae8.chunk.js"
   },
   {
     "revision": "9dc5d60a7e2484765950",
