@@ -34,7 +34,8 @@ function App() {
 
   const [fps, setFps] = useState(0);
   const [stageState, setStageState] = useState(InitialState.stage);
-  const [scoreState, setScoreState] = useState(InitialState.score)
+  const [scoreState, setScoreState] = useState(InitialState.score);
+  const [activeTouch, setActiveTouch] = useState(false);
 
   const stage = useRef(InitialState.stage);
   const deviceMotionLocker = useRef(false);
@@ -164,6 +165,12 @@ function App() {
     }
   };
 
+  const onTouch = () => {
+    if (activeTouch) {
+      onInput();
+    }
+  }
+
   const onDeviceMotion = (event) => {
     if (deviceMotionLocker.current) return;
     const {x, y, z} = event.acceleration;
@@ -181,7 +188,7 @@ function App() {
       deviceMotionLocker.current = true;
       setTimeout(() => {
         deviceMotionLocker.current = false;
-      }, 500);
+      }, 300);
       onInput();
     }
   };
@@ -192,16 +199,23 @@ function App() {
   }, []);
 
   useEffect(() => {
-    window.addEventListener('devicemotion', onDeviceMotion, true);
+    if (window.DeviceMotionEvent) {
+      window.addEventListener('devicemotion', onDeviceMotion, true);
+      setActiveTouch( false);
+    } else {
+      setActiveTouch(true);
+    }
   });
 
+  const actionType = activeTouch ? 'Touch' : 'Swing';
+
   return (
-      <div className="app">
+      <div className="app" onClick={onTouch}>
         {stageState === 'start' && (
             <div className="stage">
               {maxScore >= 1 && (<div className="max-score">MAX SCORE: {maxScore}</div>)}
               <div className="title"><div className="big-title">Ping Pong</div>Challenge!</div>
-              <div className="blink">Turn up the volume and Swing your phone to start</div>
+              <div className="blink">Turn up the volume and {actionType} your phone to start</div>
             </div>
         )}
         {stageState === 'game' && (
